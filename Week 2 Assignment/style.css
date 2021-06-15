@@ -1,0 +1,34 @@
+h1 {
+	text-align: center;
+}
+
+/*Large Device Only*/
+@media (min-width: 992px) and (max-width: 1200px){
+	p {
+		color: red;
+		font-size: 20px;
+		border: 1px solid black;
+		width: 20%;
+	}
+}
+	
+
+/*Medium Device Only*/
+@media (min-width: 768px) and (max-width: 991px){
+	p {
+		color: red;
+		font-size: 20px;
+		border: 1px solid black;
+		width: 20%;
+	}
+}
+
+/*Small Device Only*/
+@media (max-width: 767px) {
+	p {
+		color: red;
+		font-size: 20px;
+		border: 1px solid black;
+		width: 20%;
+	}
+}
